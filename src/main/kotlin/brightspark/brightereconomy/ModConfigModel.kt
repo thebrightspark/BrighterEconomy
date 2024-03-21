@@ -21,7 +21,7 @@ class ModConfigModel {
 
 	@JvmField
 	@RegexConstraint("^[^\\s]{1,5}$")
-	var currencySymbol: String = "£"
+	var currencySymbol: String = "💩"
 
 	@JvmField
 	var whitelist: List<String> = emptyList()
